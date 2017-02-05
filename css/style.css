@@ -1,3 +1,18 @@
+header {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+#nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
 .nav-center{
   text-align: center;
 }
@@ -19,4 +34,18 @@
     color: white;
     background-color: rgb(15, 93, 117);
     border-color: rgb(12, 71, 89);
+}
+
+.header-h1,
+.header-h2 {
+  position: absolute;
+  font-size: 450%;
+  color: white;
+  top: 150px;
+  width: 100%;
+  text-align: center;
+}
+
+header{
+ background: rgba(200, 54, 54, 0.1);
 }
