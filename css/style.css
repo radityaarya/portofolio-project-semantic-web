@@ -1,0 +1,22 @@
+.nav-center{
+  text-align: center;
+}
+
+.header-logo,
+.header-navigation,
+.header-btn {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.btn-daftar {
+    color: white;
+    background-color: rgb(27, 178, 226);
+    border-color: rgb(20, 144, 184);
+}
+
+.btn-daftar:hover {
+    color: white;
+    background-color: rgb(15, 93, 117);
+    border-color: rgb(12, 71, 89);
+}
